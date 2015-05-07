@@ -13,6 +13,10 @@
 		D795C9A11AFB0AAD00779E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D795C9A01AFB0AAD00779E8C /* Images.xcassets */; };
 		D795C9A41AFB0AAD00779E8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D795C9A21AFB0AAD00779E8C /* LaunchScreen.xib */; };
 		D795C9B01AFB0AAD00779E8C /* buttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D795C9AF1AFB0AAD00779E8C /* buttonTests.swift */; };
+		D795C9BA1AFB292B00779E8C /* doge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D795C9B91AFB292B00779E8C /* doge.jpg */; };
+		D795C9BC1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D795C9BB1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg */; };
+		D795C9BE1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png in Resources */ = {isa = PBXBuildFile; fileRef = D795C9BD1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png */; };
+		D795C9C01AFB33BD00779E8C /* hqdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D795C9BF1AFB33BD00779E8C /* hqdefault.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		D795C9A91AFB0AAD00779E8C /* buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D795C9AE1AFB0AAD00779E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D795C9AF1AFB0AAD00779E8C /* buttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonTests.swift; sourceTree = "<group>"; };
+		D795C9B91AFB292B00779E8C /* doge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doge.jpg; sourceTree = "<group>"; };
+		D795C9BB1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "89002-doge-confused-dog.png.jpeg"; sourceTree = "<group>"; };
+		D795C9BD1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png"; sourceTree = "<group>"; };
+		D795C9BF1AFB33BD00779E8C /* hqdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hqdefault.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,10 @@
 		D795C9971AFB0AAC00779E8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D795C9BB1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg */,
+				D795C9BD1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png */,
+				D795C9B91AFB292B00779E8C /* doge.jpg */,
+				D795C9BF1AFB33BD00779E8C /* hqdefault.jpg */,
 				D795C9981AFB0AAC00779E8C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D795C99F1AFB0AAD00779E8C /* Main.storyboard in Resources */,
+				D795C9BC1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg in Resources */,
 				D795C9A41AFB0AAD00779E8C /* LaunchScreen.xib in Resources */,
+				D795C9BE1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png in Resources */,
+				D795C9BA1AFB292B00779E8C /* doge.jpg in Resources */,
 				D795C9A11AFB0AAD00779E8C /* Images.xcassets in Resources */,
+				D795C9C01AFB33BD00779E8C /* hqdefault.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
