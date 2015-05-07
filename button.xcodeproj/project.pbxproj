@@ -17,6 +17,13 @@
 		D795C9BC1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D795C9BB1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg */; };
 		D795C9BE1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png in Resources */ = {isa = PBXBuildFile; fileRef = D795C9BD1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png */; };
 		D795C9C01AFB33BD00779E8C /* hqdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D795C9BF1AFB33BD00779E8C /* hqdefault.jpg */; };
+		D795C9CA1AFB76F900779E8C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D795C9C91AFB76F900779E8C /* HomeViewController.swift */; };
+		D7A4E2AD1AFBB84C00B2303D /* 11207972_10206020159043620_1071044090_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7A4E2AC1AFBB84C00B2303D /* 11207972_10206020159043620_1071044090_o.jpg */; };
+		D7A4E2AF1AFBBCD000B2303D /* dogeadventure.gif in Resources */ = {isa = PBXBuildFile; fileRef = D7A4E2AE1AFBBCD000B2303D /* dogeadventure.gif */; };
+		D7A4E2B11AFBC19000B2303D /* GIFIamgeView_Swift-master in Resources */ = {isa = PBXBuildFile; fileRef = D7A4E2B01AFBC19000B2303D /* GIFIamgeView_Swift-master */; };
+		D7A4E2BE1AFBC6B700B2303D /* inApp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7A4E2BD1AFBC6B700B2303D /* inApp.mp3 */; };
+		D7A4E2C01AFBC74000B2303D /* outApp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7A4E2BF1AFBC74000B2303D /* outApp.mp3 */; };
+		D7A4E2C21AFBC97D00B2303D /* village.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7A4E2C11AFBC97D00B2303D /* village.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,14 @@
 		D795C9BB1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "89002-doge-confused-dog.png.jpeg"; sourceTree = "<group>"; };
 		D795C9BD1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png"; sourceTree = "<group>"; };
 		D795C9BF1AFB33BD00779E8C /* hqdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hqdefault.jpg; sourceTree = "<group>"; };
+		D795C9C91AFB76F900779E8C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7A4E2AB1AFBB40C00B2303D /* button-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "button-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7A4E2AC1AFBB84C00B2303D /* 11207972_10206020159043620_1071044090_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11207972_10206020159043620_1071044090_o.jpg; sourceTree = "<group>"; };
+		D7A4E2AE1AFBBCD000B2303D /* dogeadventure.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dogeadventure.gif; sourceTree = "<group>"; };
+		D7A4E2B01AFBC19000B2303D /* GIFIamgeView_Swift-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GIFIamgeView_Swift-master"; sourceTree = "<group>"; };
+		D7A4E2BD1AFBC6B700B2303D /* inApp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inApp.mp3; sourceTree = "<group>"; };
+		D7A4E2BF1AFBC74000B2303D /* outApp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = outApp.mp3; sourceTree = "<group>"; };
+		D7A4E2C11AFBC97D00B2303D /* village.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = village.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +100,9 @@
 		D795C9961AFB0AAC00779E8C /* button */ = {
 			isa = PBXGroup;
 			children = (
+				D7A4E2B01AFBC19000B2303D /* GIFIamgeView_Swift-master */,
 				D795C9991AFB0AAC00779E8C /* AppDelegate.swift */,
+				D795C9C91AFB76F900779E8C /* HomeViewController.swift */,
 				D795C99B1AFB0AAC00779E8C /* ViewController.swift */,
 				D795C99D1AFB0AAD00779E8C /* Main.storyboard */,
 				D795C9A01AFB0AAD00779E8C /* Images.xcassets */,
@@ -98,11 +115,17 @@
 		D795C9971AFB0AAC00779E8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7A4E2C11AFBC97D00B2303D /* village.jpg */,
+				D7A4E2BD1AFBC6B700B2303D /* inApp.mp3 */,
+				D7A4E2BF1AFBC74000B2303D /* outApp.mp3 */,
+				D7A4E2AE1AFBBCD000B2303D /* dogeadventure.gif */,
+				D7A4E2AC1AFBB84C00B2303D /* 11207972_10206020159043620_1071044090_o.jpg */,
 				D795C9BB1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg */,
 				D795C9BD1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png */,
 				D795C9B91AFB292B00779E8C /* doge.jpg */,
 				D795C9BF1AFB33BD00779E8C /* hqdefault.jpg */,
 				D795C9981AFB0AAC00779E8C /* Info.plist */,
+				D7A4E2AB1AFBB40C00B2303D /* button-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -205,11 +228,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D795C99F1AFB0AAD00779E8C /* Main.storyboard in Resources */,
+				D7A4E2C01AFBC74000B2303D /* outApp.mp3 in Resources */,
 				D795C9BC1AFB2D4B00779E8C /* 89002-doge-confused-dog.png.jpeg in Resources */,
+				D7A4E2B11AFBC19000B2303D /* GIFIamgeView_Swift-master in Resources */,
 				D795C9A41AFB0AAD00779E8C /* LaunchScreen.xib in Resources */,
+				D7A4E2C21AFBC97D00B2303D /* village.jpg in Resources */,
 				D795C9BE1AFB2F4B00779E8C /* nyan_cat_wallpaper_by_jeremifier-d3kf4fj.png in Resources */,
+				D7A4E2AF1AFBBCD000B2303D /* dogeadventure.gif in Resources */,
 				D795C9BA1AFB292B00779E8C /* doge.jpg in Resources */,
 				D795C9A11AFB0AAD00779E8C /* Images.xcassets in Resources */,
+				D7A4E2BE1AFBC6B700B2303D /* inApp.mp3 in Resources */,
+				D7A4E2AD1AFBB84C00B2303D /* 11207972_10206020159043620_1071044090_o.jpg in Resources */,
 				D795C9C01AFB33BD00779E8C /* hqdefault.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +259,7 @@
 			files = (
 				D795C99C1AFB0AAC00779E8C /* ViewController.swift in Sources */,
 				D795C99A1AFB0AAC00779E8C /* AppDelegate.swift in Sources */,
+				D795C9CA1AFB76F900779E8C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,9 +386,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = button/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "button/button-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -366,9 +399,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = button/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "button/button-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -425,6 +460,7 @@
 				D795C9B51AFB0AAD00779E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D795C9B61AFB0AAD00779E8C /* Build configuration list for PBXNativeTarget "buttonTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +469,7 @@
 				D795C9B81AFB0AAD00779E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

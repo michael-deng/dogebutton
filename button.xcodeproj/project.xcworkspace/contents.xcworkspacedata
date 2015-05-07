@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../button/HomeViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:button.xcodeproj">
    </FileRef>
 </Workspace>
